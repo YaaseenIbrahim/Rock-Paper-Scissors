@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Gobold;
+    src: url('Fonts/Gobold Bold.otf');
+}
+body {
+    margin: 0;
+}
+.shades{
+    height: 5vh;
+}
+.a {
+    background-color: rgb(53, 95, 223);
+}
+
+.b {
+    background-color: rgb(41, 86, 219);
+}
+
+.c {
+    background-color: rgb(30, 78, 219);
+}
+
+#header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    font-family: Gobold;
+    font-size: 5rem;
+    color: white;
+    background-color: royalblue;
+    height: 35vh;
+}
+
+
