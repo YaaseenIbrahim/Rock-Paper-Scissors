@@ -3,9 +3,9 @@ const userChoiceDisplay = document.querySelector('#userChoiceDisplay')
 const resultText = document.querySelector('#resultText')
 const buttons = Array.from(document.querySelectorAll('button'))
 const options = ["Rock", "Paper", "Scissors"]
-const winsDisplay = document.querySelector('#counters').children[0]
-const lossesDisplay = document.querySelector('#counters').children[1]
-const drawsDisplay = document.querySelector('#counters').children[2]
+// const winsDisplay = document.querySelector('#counters').children[0]
+// const lossesDisplay = document.querySelector('#counters').children[1]
+// const drawsDisplay = document.querySelector('#counters').children[2]
 let draws = wins = losses = 0
 
 buttons.forEach(button => {
@@ -43,5 +43,6 @@ buttons.forEach(button => {
         }
     }
 })
+
 
 

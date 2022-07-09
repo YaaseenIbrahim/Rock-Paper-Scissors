@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Gobold;
+    src: url('Fonts/Gobold Bold.otf');
+}
+
+body,
+html {
+    margin: 0;
+}
+
+.shades {
+    height: 4vh;
+}
+
+.a {
+    background-color: rgb(53, 95, 223);
+}
+
+.b {
+    background-color: rgb(41, 86, 219);
+}
+
+.c {
+    background-color: rgb(30, 78, 219);
+ 
+}
+.active{
+    background-color: black;
+}
+
+#header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    font-family: Gobold;
+    font-size: 3rem;
+    background-color: royalblue  ;
+    height: 35vh;
+    position: sticky;
+    top: 0;
+}
+
+.beforeScroll {
+    color: white;
+}
+.scrolled {
+    color: royalblue;
+    transition: ease-out 250ms;
+}
+
+.gameSection{
+    scroll-snap-align: start;
+    height: 100vh;
+}
+@media (min-width : 605px) {
+    #header-container {
+        font-size: 4rem;
+        height: 45vh;
+    }
+    .shades {
+        height: 5vh;
+    }
+}
+@media (min-width : 750px) {
+    #header-container {
+        font-size: 5rem;
+    }
+}
+
